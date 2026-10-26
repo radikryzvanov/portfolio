@@ -13,7 +13,7 @@ import { SITE, SERVICES, WORKS, STEPS, FAQ, Work } from '../data/site.data';
       <a class="btn btn-cta btn-lg" [href]="site.telegramUrl">Написать в Telegram</a>
       <a class="btn btn-ghost btn-lg" href="#raboty">Смотреть работы</a>
     </div>
-    <div class="stack">Стек: Angular 22 · TypeScript · Telegram Bot API · работаю с ИИ-инструментами</div>
+    <div class="stack">Стек: Angular 22 · TypeScript · JavaScript · Telegram Bot API · работаю с ИИ-инструментами</div>
   </div>
   <div class="hero-photo"><figure>
     <img src="assets/radik.webp" alt="Радик Рызванов" width="840" height="840" fetchpriority="high">
