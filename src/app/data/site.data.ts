@@ -86,7 +86,7 @@ export const WORKS: Work[] = [
     kind: 'Личный проект', demo: false,
     title: 'Бот поиска вакансий',
     task: 'Не искать вакансии вручную каждый день.',
-    features: 'Сам запускается каждые 2 часа через GitHub Actions, собирает вакансии с выбранных площадок, отсеивает лишнее и присылает новые в Telegram. Можно запустить и вручную.',
+    features: 'Сам запускается каждые 2 часа через GitHub Actions, собирает вакансии с выбранных площадок, отсеивает лишнее и присылает новые в Telegram. Делит вакансии на основную работу и подработку. Можно запустить и вручную.',
     tags: ['Node.js', 'GitHub Actions', 'Telegram'],
     image: 'assets/vacancy-bot.webp', alt: 'Бот присылает найденные вакансии в Telegram', position: 'center',
     links: [{ label: 'Код', url: 'https://github.com/radikryzvanov/vacancy-bot' }],
