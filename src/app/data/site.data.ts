@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Радик Рызванов',
-  telegramUrl: 'https://t.me/Radikhanif',
-  telegramHandle: '@Radikhanif',
+  telegramUrl: 'https://t.me/radik_ryzvanov',
+  telegramHandle: '@radik_ryzvanov',
   phoneHref: 'tel:+79084741031',
   phoneText: '+7 908 474-10-31',
   githubUrl: 'https://github.com/radikryzvanov',
