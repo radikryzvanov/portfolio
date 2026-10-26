@@ -109,6 +109,7 @@ export const WORKS: Work[] = [
     task: 'Собрать в одном окне учёт птицефабрики вместо таблиц и бумажных журналов.',
     features: 'Девять разделов: птичники, склад яйца, инкубатор, склад кормов, ветеринария, убой, логистика, элеватор и финансовый калькулятор. Прибыль и остатки считаются автоматически, данные сохраняются в браузере, таблицы выгружаются в файл. Данные в демо вымышленные.',
     tags: ['Angular 22', 'TypeScript', 'signals'],
+    image: 'assets/yieldflow-erp.webp', alt: 'Раздел «Птичники» в системе учёта птицефабрики', position: 'top left',
     links: [
       { label: 'Смотреть', url: 'https://yield-flow-erp.vercel.app', primary: true },
       { label: 'Код', url: 'https://github.com/radikryzvanov/yield-flow-erp' },
