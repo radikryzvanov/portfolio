@@ -41,6 +41,7 @@ export const SERVICES: Service[] = [
 ];
 
 export interface Work {
+  dev?: boolean;
   kind: string;
   demo: boolean;
   title: string;
@@ -75,6 +76,7 @@ export const WORKS: Work[] = [
     image: 'assets/barbershop.webp', alt: 'Концепт сайта барбершопа', position: 'top left',
   },
   {
+    dev: true,
     kind: 'Личный проект', demo: false,
     title: 'Сайт-портфолио (этот сайт)',
     task: 'Показать работы и принимать заявки в Telegram.',
@@ -83,6 +85,7 @@ export const WORKS: Work[] = [
     links: [{ label: 'Код', url: 'https://github.com/radikryzvanov/portfolio' }],
   },
   {
+    dev: true,
     kind: 'Личный проект', demo: false,
     title: 'Бот поиска вакансий',
     task: 'Не искать вакансии вручную каждый день.',
@@ -125,6 +128,7 @@ export const WORKS: Work[] = [
     links: [{ label: 'Код', url: 'https://github.com/radikryzvanov/wb-ozon-bot' }],
   },
   {
+    dev: true,
     kind: 'Личный проект', demo: false,
     title: 'Obsidian AI Bridge: заметки через Telegram',
     task: 'Не терять идеи, ссылки и конспекты.',
