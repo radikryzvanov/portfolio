@@ -88,6 +88,7 @@ export const WORKS: Work[] = [
     task: 'Не искать вакансии вручную каждый день.',
     features: 'Сам запускается каждые 2 часа через GitHub Actions, собирает вакансии с выбранных площадок, отсеивает лишнее и присылает новые в Telegram. Можно запустить и вручную.',
     tags: ['Node.js', 'GitHub Actions', 'Telegram'],
+    image: 'assets/vacancy-bot.webp', alt: 'Бот присылает найденные вакансии в Telegram', position: 'center',
     links: [{ label: 'Код', url: 'https://github.com/radikryzvanov/vacancy-bot' }],
   },
   {
@@ -108,6 +109,7 @@ export const WORKS: Work[] = [
     task: 'Быстрее готовить описания и картинки для карточек товара.',
     features: 'Задаёт 4 вопроса о товаре и пишет описание с SEO-ключами, по фото собирает инфографику, отправляет описание в карточку через API Wildberries и Ozon. Публикация сделана по документации API, на реальном магазине пока не проверялась.',
     tags: ['Node.js', 'grammY', 'sharp'],
+    image: 'assets/wb-ozon-bot.webp', alt: 'Бот задаёт вопросы о товаре в Telegram', position: 'center',
     links: [{ label: 'Код', url: 'https://github.com/radikryzvanov/wb-ozon-bot' }],
   },
   {
