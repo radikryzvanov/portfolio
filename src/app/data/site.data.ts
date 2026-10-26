@@ -75,11 +75,12 @@ export const WORKS: Work[] = [
     image: 'assets/barbershop.webp', alt: 'Концепт сайта барбершопа', position: 'top left',
   },
   {
-    kind: 'В разработке', demo: false,
+    kind: 'Личный проект', demo: false,
     title: 'Сайт-портфолио (этот сайт)',
     task: 'Показать работы и принимать заявки в Telegram.',
-    features: 'Адаптивный сайт на Angular 22. Код будет открыт на GitHub.',
+    features: 'Адаптивный сайт на Angular 22. Код открыт на GitHub.',
     tags: ['Angular 22', 'TypeScript'],
+    links: [{ label: 'Код', url: 'https://github.com/radikryzvanov/portfolio' }],
   },
   {
     kind: 'Личный проект', demo: false,
